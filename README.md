@@ -1,72 +1,69 @@
 # Executive Sales Dashboard | Power BI
 
-## Overview
+An interactive **Power BI dashboard** built to analyze sales performance, profitability, customer behavior, and operational metrics using the **Sample Superstore** retail dataset.
 
-This project presents an interactive **Executive Sales Dashboard** built in Microsoft Power BI using the publicly available **Sample Superstore** retail dataset.
-
-The dashboard transforms transactional sales data into actionable business insights through dynamic KPIs, time intelligence, profitability analysis, customer analytics, and operational reporting.
-
-The report is designed for business users and decision-makers to monitor overall business performance and identify areas requiring attention.
+The report combines executive KPIs, dynamic DAX measures, time intelligence, and interactive visualizations to help decision-makers monitor business performance and uncover actionable insights.
 
 ---
 
-## Dashboard Preview
+## 📌 Project Overview
 
-> *(Insert screenshots below)*
+This project simulates an executive reporting solution for a retail business. It demonstrates how transactional sales data can be transformed into meaningful business insights through Power BI.
 
-### Executive Sales Dashboard
-
-![Dashboard 1](images/dashboard1.png)
-
-### Profitability & Margin Analysis
-
-![Dashboard 2](images/dashboard2.png)
-
-### Customer & Operational Insights
-
-![Dashboard 3](images/dashboard3.png)
-
----
-
-## Business Objectives
-
-The dashboard helps answer key business questions:
+The dashboard focuses on answering questions such as:
 
 - How are sales performing over time?
-- Which regions and product categories generate the highest revenue?
-- Which products are reducing profitability?
-- How do discounts impact profit?
+- Which products and regions generate the highest revenue?
+- Which sub-categories negatively impact profitability?
+- How do discounts affect profit?
 - Which customer segments contribute the most revenue?
 - What operational metrics should management monitor?
 
 ---
 
-## Dashboard Features
+# 📊 Dashboard Screenshots
+
+## 1. Executive Sales Dashboard
+
+![Executive Sales Dashboard](images/executive-sales-dashboard.png)
+
+---
+
+## 2. Profitability & Margin Analysis
+
+![Profitability & Margin Analysis](images/profitability-margin-analysis.png)
+
+---
+
+## 3. Customer & Operational Insights
+
+![Customer & Operational Insights](images/customer-operational-insights.png)
+
+---
+
+# 🚀 Dashboard Features
 
 ### Executive Sales Dashboard
 
-- Total Sales
-- Total Profit
-- Total Orders
-- Average Order Value
-- Profit Margin
-- Monthly Sales Trend
+- Executive KPI Cards
+- Sales Trend Analysis
 - 3-Month Rolling Average
 - Sales by Category
 - Sales by Region
 - Dynamic Business Insights
 - Interactive Slicers
+- Year-over-Year (YoY) Growth
 
 ---
 
 ### Profitability & Margin Analysis
 
 - Profit KPIs
-- Profit Growth
+- Profit Margin Analysis
 - Discount vs Profit Analysis
 - Loss-Making Sub-Categories
 - Profit Margin by Category
-- Interactive Tooltips
+- Dynamic Report Tooltips
 - Profitability Insights
 
 ---
@@ -75,80 +72,123 @@ The dashboard helps answer key business questions:
 
 - Customer KPIs
 - Sales by Customer Segment
+- Average Order Value Analysis
 - Top States by Sales
-- Average Order Value by Segment
 - Profit by Ship Mode
 - Operational Insights
 
 ---
 
-## Key Insights
+# 💡 Key Business Insights
 
 - Technology is the highest revenue-generating category.
-- West is the best-performing sales region.
-- Tables remain the largest loss-making sub-category.
-- Higher discounts are associated with weaker profitability, particularly in Furniture.
+- West is the top-performing sales region.
+- Tables are the largest loss-making sub-category.
+- Higher discounts are associated with weaker profitability, particularly within Furniture.
 - Consumer is the highest revenue-generating customer segment.
-- Standard Class shipping contributes the highest profit.
+- Standard Class shipping contributes the highest overall profit.
 
 ---
 
-## Technical Highlights
+# 🛠 Technical Highlights
 
 - Star Schema Data Model
-- Power Query for data transformation
+- Power Query for Data Transformation
 - Dynamic DAX Measures
-- Time Intelligence Calculations
-- Year-over-Year Analysis
-- Rolling Average Trend
+- Time Intelligence
+- Year-over-Year (YoY) Analysis
+- Rolling Average Calculations
 - Interactive Slicers
 - Dynamic Insight Cards
 - Report Tooltips
+- Cross-Filtering
 - Executive Dashboard Design
 
 ---
 
-## Skills Demonstrated
+# 📈 Skills Demonstrated
 
-- Power BI
+- Microsoft Power BI
 - DAX
 - Power Query
 - Data Modeling
 - Data Visualization
+- Dashboard Design
 - Business Intelligence
-- Dashboard Storytelling
-- KPI Design
+- KPI Development
 - Time Intelligence
-- Executive Reporting
+- Analytical Storytelling
 
 ---
 
-## Tools Used
+# 🧰 Tools & Technologies
 
 | Tool | Purpose |
 |------|----------|
 | Microsoft Power BI | Dashboard Development |
-| Power Query | Data Transformation |
-| DAX | KPI & Time Intelligence Calculations |
-| Excel | Dataset |
+| Power Query | Data Cleaning & Transformation |
+| DAX | Calculated Measures & Time Intelligence |
+| Microsoft Excel | Data Source |
 
 ---
 
-## Dataset
+# 📂 Dataset
 
 **Dataset:** Sample Superstore
 
-This project uses the publicly available **Sample Superstore** dataset for educational and portfolio purposes to demonstrate business intelligence and dashboard development techniques.
+This project uses the publicly available **Sample Superstore** retail dataset for educational and portfolio purposes.
 
 ---
 
-## Author
+# ▶️ How to Use
+
+1. Download the repository.
+2. Open **Executive Sales Dashboard.pbix** in Microsoft Power BI Desktop.
+3. Interact with the dashboard using the available slicers and filters.
+4. Hover over visuals to explore additional insights through custom tooltips.
+
+---
+
+# 📁 Repository Structure
+
+```text
+executive-sales-dashboard-powerbi/
+│
+├── Executive Sales Dashboard.pbix
+├── README.md
+├── LICENSE
+│
+└── images/
+    ├── executive-sales-dashboard.png
+    ├── profitability-margin-analysis.png
+    └── customer-operational-insights.png
+```
+
+---
+
+# 👨‍💻 About This Project
+
+This project was developed to strengthen practical skills in:
+
+- Business Intelligence
+- Executive Dashboard Design
+- DAX
+- Data Modeling
+- Analytical Storytelling
+
+The focus was on building a clean, interactive dashboard that communicates business performance effectively rather than simply displaying charts.
+
+---
+
+# 📬 Connect With Me
+
+If you have feedback, suggestions, or opportunities to collaborate, feel free to connect.
 
 **Rahul**
 
-Open to opportunities in:
+- 💼 LinkedIn: *www.linkedin.com/in/rahul-54a6a8201*
+- 🐙 GitHub: https://github.com/rk-analytics
 
-- Data Analytics
-- Business Intelligence
-- Power BI Development
-- Business Analysis
+---
+
+## ⭐ If you found this project interesting, consider giving the repository a star.
